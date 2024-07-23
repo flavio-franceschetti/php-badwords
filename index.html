@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHP Badwords</title>
+  </head>
+  <body>
+    <!-- form -->
+
+    <h1>Censura la parola nel tuo paragrafo</h1>
+
+    <form action="landing-page.php" method="POST">
+      <textarea
+        name="paragraph"
+        placeholder="Inserisci il tuo paragrafo"
+      ></textarea>
+
+      <br />
+
+      <input
+        name="badword"
+        type="text"
+        placeholder="Inserisci la parola da censurare"
+      />
+
+      <br />
+
+      <button type="submit">Invia</button>
+    </form>
+  </body>
+</html>
